@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Forme(s) du son_Bricolage numérique</title>
+<link href="./style.css" rel="stylesheet" type="text/css">
+<script src="F:/works/DNMADe3/monsite/scripts.js"></script>
+<style type="text/css">
+body,td,th {
+	color: #FFFFFF;
+}
+</style>
+</head>
+
+<body>
+
+<header class="header">
+
+<nav class="nav">
+	<div class="rubrique"><a href="Abstract.html">Abstract</a></div>
+  <div class="rubrique"><a href="Intro.html">Introduction</a></div>
+   <div class="rubrique"><a href="Lecture graphique du son.html">Lecture graphique du son</a></div>
+   <div class="rubrique"><a href="Experience audiovisuelle et sensorielle.html">Expérience audiovisuelle et sensorielle</a></div>
+   <div class="rubrique"><a href="Evolution d'un environnement.html">Évolution d’un environnement</a></div>
+   <div class="rubrique"><a href="Conclusion.html">Conclusion</a></div>
+	
+</nav>
+</header>
+
+<div class="page">
+ 		<div id="SlideText"></div>
+
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/blotter.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/materials/slidingDoorMaterial.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/materials/rollingDistortMaterial.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/materials/liquidDistortMaterial.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/materials/fliesMaterial.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/materials/channelSplitMaterial.min.js"></script>
+
+<script>
+	
+	// BLOTTER - Example 2
+var text = new Blotter.Text("Abstract_", {
+  family : "'Gotham', sans-serif",
+  size : 50,
+  fill : "#FFFFFF",
+  paddingLeft : 40,
+  paddingRight : 40
+});
+
+var material = new Blotter.SlidingDoorMaterial();
+
+// Play with the value for uSpeed. Lower values slow
+// down animation, while higher values speed it up. At
+// a speed of 0.0, animation is stopped entirely.
+material.uniforms.uDivisions.value = 11;
+material.uniforms.uDivisionWidth.value = 0.25;
+
+// Try uncommenting the following line to play with
+// the "volatility" of the effect. Higher values here will
+// produce more dramatic changes in the appearance of your
+// text as it animates, but you will likely want to keep
+// the value below 1.0.
+//material.uniforms.uVolatility.value = 0.30;
+
+var blotter = new Blotter(material, {
+  texts : text
+});
+
+var elem = document.getElementById("SlideText");
+var scope = blotter.forText(text);
+
+scope.appendTo(elem);
+
+</script>
+
+
+  <div class="service-tt"> 
+	
+  <div class="Abstract">This dissertation deals with the link between shapes and sounds, through Do It Yourself (DIY).  I chose this subject because I love music and new technologies, but I am also very interested in the way these two universes complement and evolve in relation to each other. Thus, we will see how to go from sound-shape to something more complex, using digital tools. The term "digital DIY" covers all possible digital manipulations, during the manufacturing process. First of all, we will try to understand how an image or a shape can be produced from a sound and the other way round, and how digital tools accentuate and complicate their interaction. Then, we will question the place of the public/spectator, (the one who sees this interaction) who becomes the actor of this interaction. And how, by immersing themself,  they can transform the simple dialogue between sounds and forms into a real audiovisual experience. Finally, we will be able to realize that the immersion of the user can become the starting point of the interaction between sound and form.</div> 
+	
+	</div>
+
+	
+</div>
+
+</body>
+
+  <footer>
+  <div class="Footer">
+    <div class="NameAnnee">
+      <div class="MyName">Blanc Thibaut<br/><strong>DNMADe Graphisme Option Images et Médiation</strong></div>
+      <div class="ToAnnexe"><a href="Annexes.html"> Annexes</a></div>
+    </div>
+    </div>
+  </footer>
+	
+</html>

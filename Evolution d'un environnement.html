@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Forme(s) du son_Bricolage numérique</title>
+<link href="./style.css" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+body,td,th {
+  color: #FFFFFF;
+}
+</style>
+</head>
+
+<body>
+<header class="header">
+
+<nav class="nav">
+	<div class="rubrique"><a href="Abstract.html">Abstract</a></div>
+  <div class="rubrique"><a href="Intro.html">Introduction</a></div>
+   <div class="rubrique"><a href="Lecture graphique du son.html">Lecture graphique <br />du son</a></div>
+   <div class="rubrique"><a href="Experience audiovisuelle et sensorielle.html">Expérience audiovisuelle et sensorielle</a></div>
+   <div class="rubrique"><a href="Evolution d'un environnement.html">Évolution d’un environnement</a></div>
+   <div class="rubrique"><a href="Conclusion.html">Conclusion</a></div>
+  
+</nav>
+</header>
+
+<div class="page">
+  <div id="SlideText"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/blotter.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/materials/slidingDoorMaterial.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/materials/rollingDistortMaterial.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/materials/liquidDistortMaterial.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/materials/fliesMaterial.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/materials/channelSplitMaterial.min.js"></script>
+
+<script>
+  
+var text = new Blotter.Text("Évolution d'un environnement_", {
+  family : "'Gotham', sans-serif",
+  fill : "#FFFFFF",
+  size : 50,
+  paddingLeft : 40,
+  paddingRight : 40
+});
+
+var material = new Blotter.SlidingDoorMaterial();
+
+material.uniforms.uDivisions.value = 11;
+material.uniforms.uDivisionWidth.value = 0.25;
+
+var blotter = new Blotter(material, {
+  texts : text
+});
+
+var elem = document.getElementById("SlideText");
+var scope = blotter.forText(text);
+
+scope.appendTo(elem);
+
+</script>
+  
+  <div class="service-tt">
+
+    <h2>Usager acteur de l’environnement</h2>
+  
+  <div class="service-texte">Toujours pour l’exposition Faire Corps, le visiteur est invité à devenir acteur de son environnement, de par sa présence, il crée un lieu d’apaisement totalement nouveau et propre à lui-même. C’est par cette immersion que l’exposition prend tout son sens, le spectateur est mis au centre de l’expérience et fait partie intégrante de celle-ci. En étudiant la place de l’humain au sein de l’installation, de nouvelles problématiques entrent en jeu, notamment le fait que celui-ci n’est plus là en simple spectateur, mais devient lui aussi une sorte de dispositif à part entière, qui viendra influencer et faire évoluer l’espace sonore et visuel qui l’entoure. En s’immergeant dans un nouvel espace, il se l’accapare, et interagit avec lui de manière naturelle et intuitive. En outre, Tarik Barri, avec son projet <a class="AI1">Versum<sup class="sup">1</sup><img src="images/versum.jpg" width="30%"></a> a développé un programme de composition virtuel illustrant parfaitement l’immersion. Il s’agit d’un monde virtuel en 3D et en temps réel qui invite les spectateurs et le compositeur à regarder la musique et à écouter les visuels. Ce dispositif permet de briser les barrières entre public et compositeur, et le laisse littéralement voir comment le compositeur travaille et la façon dont la composition est construite, ainsi une grande valeur pourrait être ajoutée à l’expérience d’écoute. Cela induit une totale transparence quant aux structures de la composition. Dans ces deux types d’espace (réel ou virtuel), l’usager-acteur passe alors d’un état passif et purement consommateur à un rôle très influent quant au rythme de son environnement. 
+    <div id="versumVid">
+          <iframe height="300px" width="100%" src="https://www.youtube.com/embed/o5z1wEj3tHk" allowfullscreen></iframe>
+        <div class="annexe_txt">1.Versum<br />de Tarik Barri</div>
+        </div>
+</div> 
+
+</div>
+  <div class="p2evo">
+  <div class="service-tt4">
+
+    <p class="transition-txt">Pour ces expériences, l’implication et l’immersion du public viennent influencer leur déroulement, et par réaction en chaîne, les sons et formes qui y sont associés.
+ </p>
+
+
+    <h2>Mise en place d’un rythme</h2>
+  
+  <div class="service-texte">L’utilisateur met en place ainsi le rythme de l’environnement dans lequel il se déplace en interagissant avec les éléments sonores et visuels qui l’entourent. Il a la possibilité de faire naître sons et images par sa déambulation, et par les différentes manipulations qu’il peut opérer avec les éléments composants l’espace qui l’entoure. Ces manipulations deviennent possibles par le développement d’un UX design poussé, permettant au spectateur de générer le rythme, comme pour l’application <a class="AI1">Dance Tonite<sup class="sup">2</sup><img src="images/DanceTonite.jpg" width="30%"></a> du studio Purckey. Ce vidéoclip VR interactif réalisé et développé pour le groupe LCD Soundsystem, transporte le spectateur dans une série de mini -show ou des formes dansent en rythme. En réalité, ces formes ont été générées au préalable par d’autres usagers. Une fois à la fin, il peut générer sa propre danse (retranscrite à travers des formes primitives) qui sera rajoutée à toutes les autres. L’usager a donc la possibilité de générer un nouvel espace où les relations son-forme ou forme-son découlent de son comportement. Le passage de la simple relation sons-formes, à quelque chose au rythme plus complexe, peut donc se faire à travers l’utilisateur. 
+</div> 
+
+  </div>
+      <div class="danceTonite">
+        <iframe width="100%" height="300px" src="https://www.youtube.com/embed/9cG675fJlEo" allowfullscreen></iframe>
+        <div class="annexe_txt">2.Dance Tonite Studio Purckey<br />pour le groupe LCD Soundsystem</div>
+
+         <a href="Home.html"><div id="FDS"></div></a>
+         <script>
+  
+  // BLOTTER - Example 2
+var text = new Blotter.Text("Forme(s) du son_", {
+  family : "'Roboto', sans-serif",
+  size : 60,
+  fill : "#FFFFFF",
+  paddingLeft : 40,
+  paddingRight : 40,
+  marginTop : 50
+});
+
+var material = new Blotter.RollingDistortMaterial();
+
+// Play with the value for uSpeed. Lower values slow
+// down animation, while higher values speed it up. At
+// a speed of 0.0, animation is stopped entirely.
+material.uniforms.uSpeed.value = 0.05;
+material.uniforms.uSineDistortAmplitude.value = 0.03;
+
+// Try uncommenting the following line to play with
+// the "volatility" of the effect. Higher values here will
+// produce more dramatic changes in the appearance of your
+// text as it animates, but you will likely want to keep
+// the value below 1.0.
+//material.uniforms.uVolatility.value = 0.30;
+
+var blotter = new Blotter(material, {
+  texts : text
+});
+
+var elem = document.getElementById("FDS");
+var scope = blotter.forText(text);
+
+scope.appendTo(elem);
+
+</script>
+          
+          </div>
+
+            </div>
+</div>
+
+  <footer>
+  <div class="Footer">
+    <div class="NameAnnee">
+      <div class="MyName">Blanc Thibaut<br/><strong>DNMADe Graphisme Option Images et Médiation</strong></div>
+      <div class="ToAnnexe"><a href="Annexes.html"> Annexes</a></div>
+    </div>
+    </div>
+  </footer>
+</body>
+
+<script src="C:/Users/Eleves/Desktop/Website/scripts.js"></script>
+  
+</html>

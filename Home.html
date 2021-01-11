@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Forme(s) du son_Bricolage numérique</title>
+<link href="./style.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body,td,th {
+	color: #FFFFFF;
+}
+</style>
+
+</head>
+
+<body>
+<audio autoplay>
+<source src = "Sons/Stairway-Patrick-Patrikios.mp3" type ="audio / mp3">
+</audio>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<div id="myText"></div>
+
+<div class="myText2"><a href="Abstract.html">Bricolage numérique</a></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/blotter.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/materials/slidingDoorMaterial.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/materials/rollingDistortMaterial.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/materials/liquidDistortMaterial.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/materials/fliesMaterial.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/materials/channelSplitMaterial.min.js"></script>
+
+<script>
+	
+	// BLOTTER - Example 2
+var text = new Blotter.Text("Forme(s) du son_", {
+  family : "'Roboto', sans-serif",
+  size : 120,
+  fill : "#FFFFFF",
+  paddingLeft : 40,
+  paddingRight : 40
+});
+
+var material = new Blotter.RollingDistortMaterial();
+
+// Play with the value for uSpeed. Lower values slow
+// down animation, while higher values speed it up. At
+// a speed of 0.0, animation is stopped entirely.
+material.uniforms.uSpeed.value = 0.05;
+material.uniforms.uSineDistortAmplitude.value = 0.03;
+
+// Try uncommenting the following line to play with
+// the "volatility" of the effect. Higher values here will
+// produce more dramatic changes in the appearance of your
+// text as it animates, but you will likely want to keep
+// the value below 1.0.
+//material.uniforms.uVolatility.value = 0.30;
+
+var blotter = new Blotter(material, {
+  texts : text
+});
+
+var elem = document.getElementById("myText");
+var scope = blotter.forText(text);
+
+scope.appendTo(elem);
+
+</script>
+
+
+
+</body>
+
+</html>

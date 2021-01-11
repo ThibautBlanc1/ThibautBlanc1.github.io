@@ -1,0 +1,186 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Forme(s) du son_Bricolage numérique</title>
+<link href="./style.css" rel="stylesheet" type="text/css">
+<script src="monsite/scripts.js"></script>
+<style type="text/css">
+body,td,th {
+  color: #FFFFFF;
+}
+</style>
+</head>
+
+<body>
+
+<header class="header">
+
+<nav class="nav">
+	<div class="rubrique"><a href="Abstract.html">Abstract</a></div>
+  <div class="rubrique"><a href="Intro.html">Introduction</a></div>
+   <div class="rubrique"><a href="Lecture graphique du son.html">Lecture graphique du son</a></div>
+   <div class="rubrique"><a href="Experience audiovisuelle et sensorielle.html">Expérience audiovisuelle et sensorielle</a></div>
+   <div class="rubrique"><a href="Evolution d'un environnement.html">Évolution d’un environnement</a></div>
+   <div class="rubrique"><a href="Conclusion.html">Conclusion</a></div>
+  
+</nav>
+</header>
+<div class="page">
+  
+<div id="SlideText"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/blotter.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/materials/slidingDoorMaterial.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/materials/rollingDistortMaterial.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/materials/liquidDistortMaterial.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/materials/fliesMaterial.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/materials/channelSplitMaterial.min.js"></script>
+
+<script>
+  
+var text = new Blotter.Text("Lecture graphique du son_", {
+  family : "'Gotham', sans-serif",
+  fill : "#FFFFFF",
+  size : 50,
+  paddingLeft : 40,
+  paddingRight : 40
+});
+
+var material = new Blotter.SlidingDoorMaterial();
+
+material.uniforms.uDivisions.value = 11;
+material.uniforms.uDivisionWidth.value = 0.25;
+
+var blotter = new Blotter(material, {
+  texts : text
+});
+
+var elem = document.getElementById("SlideText");
+var scope = blotter.forText(text);
+
+scope.appendTo(elem);
+
+</script>
+  
+    <div class="service-tt">
+
+  	<h2>Rendre visible l'invisible</h2>
+  
+  <div class="service-texte">Un son est de par sa nature invisible, mais certains ont réussi à illustrer ce qu’ils entendaient, afin d’en fabriquer une image. Peter Saville a réalisé un travail pour le groupe Joy Division illustrant ces propos. Pour la pochette d’album <a class="AI1">Unknow Pleasures<sup class="sup">1</sup><img src="images/Joy-Division-Unknown-Pleasures.jpg" width="30%"></a> (sortit en 1979) il a retravaillé un graphique illustrant les pulsations d’un pulsar. Ce visuel énigmatique devient vite un classique du graphisme, évoquant toutes sortes de paysages par son effet de vibration et d’ondulation. « Le signal avait une fréquence très serrée et très précise : toutes les 1,337 seconde. Et le diagramme en lui-même est une découpe de la lecture continue de ces ondes, ensuite empilées » explique Peter Saville. La mise en images de ce son capté depuis l’espace et traduit par des procédés numériques, souligne donc l’interaction entre son et forme, et nous montre comment une image peut être fabriquée à partir d’un son. D’une autre façon, des sons peuvent être lus en suivant des formes : <a class="AI1">Le U rampe sonore<sup class="sup">2</sup><img src="images/Leurampesonore.jpg" width="30%"></a> est une installation réalisée par Guillaume Batista Pina (en collaboration avec d’autres artistes) qui a pour volonté de transformer la rampe en surface sensible et visuelle, métamorphosant ainsi le skateur en interprète. Mais elle permet aussi et surtout de faire communiquer les formes et les sons grâce à la courbe qui devient une boucle sonore. Ici, c’est donc le mouvement et le son qui interagissent, et sont matérialisés par les formes projetées sur la rampe.
+  	<p class="transition-txt">Les formes numériques deviennent la clé de la communication entre sons et formes. Elles permettent surtout de pousser plus loin l’interaction sons-formes, en ajoutant une possible part de liberté de lecture.</p>
+
+  </div> 
+
+  </div>
+
+   <div  class="Joydivision"><img src="images/unknownpleasures.gif" alt="Pochette de Unknow Pleasures réalisée par Peter Saville" width="500px" /></div>
+
+	<div class="service">
+
+      <div class="blocAllAnnexe">
+
+		<div class="bloc-annexe">
+
+		<div class="annexe-img">
+			<iframe width="250px" height="100%" src="https://www.youtube.com/embed/reEQye0EOAw" allowfullscreen></iframe>
+			<div class="annexe_txt">1.La visualisation des données réinterprétée, selon Peter Saville</div>
+		</div>
+
+	<div class="annexe-img">
+		<iframe width="250px" height="100%" src="https://www.youtube.com/embed/b9srITJBfBo" allowfullscreen></iframe>
+			<div class="annexe_txt">2.Démonstration du U Rampe Sonore de Guillaume Batista Pina</div>
+		
+	</div>
+
+	<div class="annexe-img">
+		<iframe width="250px" height="100%" src="https://www.youtube.com/embed/CrIIIvAoY74"allowfullscreen></iframe>
+		<div class="annexe_txt">3.Interprétation de la partition graphique "Aria" de John Cage</div>
+		
+	</div>
+
+	<div class="annexe-img">
+		<iframe width="250px" height="100%" src="https://www.youtube.com/embed/ZlROxPuXhRw"allowfullscreen></iframe>
+		<div class="annexe_txt">4.Soundsize<br />de Steina & Woody Vasulka</div>
+		
+	</div>
+
+	<div class="annexe-img">
+		<iframe width="250px" height="100%" src="https://www.youtube.com/embed/LQ988B5vlyo"allowfullscreen></iframe>
+			<div class="annexe_txt">5.V+A Forever<br />Studio Universal Everythings</div>
+		
+			</div>
+		
+			</div>
+
+				</div>
+
+  <div class="service-tt2">
+
+
+  	<h2>(Re) lecture des formes</h2>
+  
+  <div class="service-texte">Rendre visible l’invisible, c’est aussi ce qu’ont fait certains musiciens avec les <a class="AI1">partitions graphiques<sup class="sup">3</sup><img src="images/AriaJohnCage.jpg" width="30%"></a> (John Cage, Earle Brown Christian Wolff...). Ceux-ci avaient pour volonté de renouveler la graphie musicale, mais aussi le rapport à l’interprète, transformant les partitions conventionnelles en un appel à un acte créateur complémentaire ; l’interprète devient co-auteur de l’énoncé musical. Celui-ci est invité à relire et réinterpréter ces partitions générées le plus souvent à l’aide d’outils informatiques. Les outils et dispositifs numériques peuvent permettre de faire fonctionner le couple sons-formes en symbiose, notamment avec l’apparition de la vidéo. En 1974, Steina & Woody Vasulka pensaient le projet expérimental <a class="AI1">Soundsize<sup class="sup">4</sup><img src="images/SoundsizeIMG.jpg" width="30%"></a>, qui avait pour but de traduire le caractère ondulatoire commun à l’image et au son. Ils montrent ou démontrent cette unité, ici par des variations sonores et visuelles collatérales. De surcroît, d’autres travaux beaucoup plus contemporains comme l’installation <a class="AI1">Forever<sup class="sup">5</sup><img src="images/UniversalEverithings.jpg" width="25%"></a>  du studio Universal Everythings, démontrent ces caractéristiques. Des formes primitives affichées sur un panneau LED s’agitent au rythme des percussions tribales et mantras, cela nous induit à une (re) lecture des formes à travers une vision sensuelle et envoûtante des nouvelles technologies. Le numérique souligne donc cette idée d’interaction sons-formes, car ils se répondent entre eux, et proposent ainsi une (re)lecture audiovisuelle de par leur génération simultanée.</div> 
+
+	
+  <p class="transition-txt">Notre rapport à l’image et au son a beaucoup évolué avec le temps, vu comme deux médias différents en premier lieu, notamment au cinéma, où les pistes audio et vidéo étaient enregistrés indépendamment l’une de l’autre, puis superposées. Il était déjà question ici de faire vivre une expérience aux spectateurs, mais l’expérience est plus complète lorsque sons et formes se génèrent ensemble, induisant le public à une immersion.</p>
+
+
+	</div>
+</div>
+  		<a href="Home.html"><div id="FDS"></div></a>
+         <script>
+  
+  // BLOTTER - Example 2
+var text = new Blotter.Text("Forme(s) du son_", {
+  family : "'Roboto', sans-serif",
+  size : 60,
+  fill : "#FFFFFF",
+  paddingLeft : 40,
+  paddingRight : 40,
+  marginTop : 50
+});
+
+var material = new Blotter.RollingDistortMaterial();
+
+// Play with the value for uSpeed. Lower values slow
+// down animation, while higher values speed it up. At
+// a speed of 0.0, animation is stopped entirely.
+material.uniforms.uSpeed.value = 0.05;
+material.uniforms.uSineDistortAmplitude.value = 0.03;
+
+// Try uncommenting the following line to play with
+// the "volatility" of the effect. Higher values here will
+// produce more dramatic changes in the appearance of your
+// text as it animates, but you will likely want to keep
+// the value below 1.0.
+//material.uniforms.uVolatility.value = 0.30;
+
+var blotter = new Blotter(material, {
+  texts : text
+});
+
+var elem = document.getElementById("FDS");
+var scope = blotter.forText(text);
+
+scope.appendTo(elem);
+
+</script>
+		</div>
+	
+  			 	</div>
+
+  <footer>
+  <div class="Footer">
+    <div class="NameAnnee">
+      <div class="MyName">Blanc Thibaut<br/><strong>DNMADe Graphisme Option Images et Médiation</strong></div>
+      <div class="ToAnnexe"><a href="Annexes.html"> Annexes</a></div>
+    </div>
+    </div>
+  </footer>
+</body>
+  
+</html>

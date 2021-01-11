@@ -1,0 +1,234 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Forme(s) du son_Bricolage numérique</title>
+<link href="./style.css" rel="stylesheet" type="text/css">
+<script src="C:/Users/Eleves/Desktop/Website/scripts.js"></script>
+<style type="text/css">
+body,td,th {
+  color: #FFFFFF;
+}
+</style>
+</head>
+
+<body>
+<header class="header">
+
+<nav class="nav">
+	<div class="rubrique"><a href="Abstract.html">Abstract</a></div>
+  <div class="rubrique"><a href="Intro.html">Introduction</a></div>
+   <div class="rubrique"><a href="Lecture graphique du son.html">Lecture graphique du son</a></div>
+   <div class="rubrique"><a href="Experience audiovisuelle et sensorielle.html">Expérience audiovisuelle et sensorielle</a></div>
+   <div class="rubrique"><a href="Evolution d'un environnement.html">Évolution d’un environnement</a></div>
+   <div class="rubrique"><a href="Conclusion.html">Conclusion</a></div>
+  
+</nav>
+</header>
+
+<div class="page">
+  <div id="SlideText"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/blotter.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/materials/slidingDoorMaterial.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/materials/rollingDistortMaterial.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/materials/liquidDistortMaterial.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/materials/fliesMaterial.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/materials/channelSplitMaterial.min.js"></script>
+
+<script>
+  
+var text = new Blotter.Text("Annexes", {
+  family : "'Gotham', sans-serif",
+  fill : "#FFFFFF",
+  size : 50,
+  paddingLeft : 40,
+  paddingRight : 40
+});
+
+var material = new Blotter.SlidingDoorMaterial();
+
+material.uniforms.uDivisions.value = 11;
+material.uniforms.uDivisionWidth.value = 0.25;
+
+var blotter = new Blotter(material, {
+  texts : text
+});
+
+var elem = document.getElementById("SlideText");
+var scope = blotter.forText(text);
+
+scope.appendTo(elem);
+
+</script>
+<div id="pageTitre">
+	<h2>Ressources</h2>
+ 
+	<h2>Glossaire</h2>
+</div>
+
+<div class="biblio">
+	<div class="Refs">
+			<p class="refTT">RESSOURCES GRAPHIQUES</p>
+			<p class="ref"><a href="http://www.scenocosme.com/akousmaflore.htm">Akousmaflore, Scenocosme, 2007</a></p>
+			<p class="ref"><a href="https://pad.philharmoniedeparis.fr/0996400-aria-de-john-cage.aspx">Aria, John Cage, 1958 (Milan)</a></p>
+			<p class="ref"><a href="https://sagmeister.com/work/casa-da-musica/">Casa Da Musica, Sagmeister, 2007</a></p>
+			<p class="ref"><a href="">Faire Corps, Adrien M & Marina B, 2019, La Gaitée Lyrique</a></p>
+			<p class="ref"><a href="https://universaleverything.com/projects/solo-show-va-museum-london-2009">Forever, Universal Everythings, 2009, V&A John Madejski Garden (Londres)</a></p>
+			<p class="ref"><a href="https://www.onandon-records.com/leU/">Le U rampe sonore, 20syl en collaboration avec Herrmutt Lobby, Guillaume Batista, Aurélien Lafargue, Gilles Fernandez, 2015</a></p>
+			<p class="ref"><a href="https://murmure.me/projet/nordik-20/">Nordik 20, Agence Murmure, 2018</a></p>
+			<p class="ref"><a href="https://www.arte.tv/fr/videos/075319-004-A/total-records-6-11/">Pochette de l'album Unknow Pleasure, Peter Saville, 1979 (Factory Records)</a></p>
+			<p class="ref"><a href="https://www.moma.org/collection/works/118554">Soundsize, Steina & Woody Vasulka, 1974</a></p>
+			<p class="ref"><a href="https://www.movingbrands.com/work/treehouse">Treehouse, MovingBrands, </a></p>
+			<p class="refTT">RESSOURCES TEXTUELLES</p>
+			<p class="ref"><a href="http://www.labdi.uqam.ca/recherche.html">De la création d'image-objet mécaniste à la conceptualisation d'expérience transitionnelle, Laboratoire de design et interaction (LabDi)</a></p>
+			<p class="ref"><a href="http://osp.kitchen/">Open Source Publishing</a></p>
+			<p class="ref"><a href="https://www.franceculture.fr/emissions/les-cours-du-college-de-france/musiques-sons-et-signes-411-repenser-les-formes-emergence">Repenser les formes: Emergence des formes, France Culture, 2017</a></p>
+			<p class="ref"><a href="http://www.icad.org/Proceedings/2009/Barri2009.pdf">Versum : Audiovisual composing in 3D, Tarik Barri, 2019</a></p>	
+			
+</div>
+	<div class="glossaire">
+		<div class="bloc3Def">
+		<div class="blocDef">
+			<div class="titreDef">ACTEUR</div>
+			<div class="definition">Celui qui joue un rôle important, qui prend une part active à une affaire. Par opposition au spectateur, qui n’agit pas.</div>
+		</div>
+		<div class="blocDef">
+			<div class="titreDef">ALGORITHME</div>
+			<div class="definition">Ensemble des règles opératoires intervenant dans toute espèce de calcul.</div>
+		</div>
+		<div class="blocDef">
+			<div class="titreDef">AUDIOVISUELLE</div>
+			<div class="definition">Qui concerne simultanément l’ouïe et la vue, qui enregistre, diffuse, reproduit des sons, des images.</div>
+		</div>
+	</div>
+	<div class="bloc3Def">
+		<div class="blocDef">
+			<div class="titreDef">BIBLIOTHEQUE</div>
+			<div class="definition">Collection de programmes et de sous-programmes standard soigneusement testés, au moyen de laquelle on peut résoudre plusieurs types de problèmes ou de parties de problèmes.</div>
+		</div>
+		<div class="blocDef">
+			<div class="titreDef">BRICOLAGE</div>
+			<div class="definition">Fait de se livrer à des travaux manuels, souvent experimentaux, travail d’amateur intermittent et d’une technicité sans garantie </div>
+		</div>
+		<div class="blocDef">
+			<div class="titreDef">CODAGE</div>
+			<div class="definition">Transcrire un message, une information en échangeant l’écriture courante contre les signes conventionnels d’un code.</div>
+		</div>
+	</div>
+	<div class="bloc3Def">
+		<div class="blocDef">
+			<div class="titreDef">DEVELOPPEMENT</div>
+			<div class="definition">Action de développer, de se développer, de dérouler, d’étendre; état qui en résulte.</div>
+		</div>
+		<div class="blocDef">
+			<div class="titreDef">ENVIRONNEMENT</div>
+			<div class="definition">Ensemble des choses qui se trouvent aux environs, autour de quelque chose, ensemble des éléments et des phénomènes physiques qui environnent un sujet.</div>
+		</div>
+		<div class="blocDef">
+			<div class="titreDef">EXPERIENCE</div>
+			<div class="definition">Fait d’acquérir, volontairement ou non, ou de développer la connaissance des êtres et des choses par leur pratique et par une confrontation plus ou moins longue de soi avec le monde.</div>
+		</div>
+	</div>
+	<div class="bloc3Def">
+		<div class="blocDef">
+			<div class="titreDef">FORME</div>
+			<div class="definition">Qualité d’un objet, résultant de son organisation interne, de sa structure, concrétisée par les lignes et les surfaces qui le délimitent, susceptible d’être appréhendée par la vue et le toucher, et permettant de le distinguer des autres objets indépendamment de sa nature et de sa couleur.</div>
+		</div>
+		<div class="blocDef">
+			<div class="titreDef">HARDWARE</div>
+			<div class="definition">Ensemble de l’équipement matériel, qui entre dans la constitution d’un ordinateur, ou des machines de traitement de l’information en général.</div>
+		</div>
+		<div class="blocDef">
+			<div class="titreDef">IMMERSION</div>
+			<div class="definition">Fait de plonger ou d’être plongé (dans une atmosphère quelconque), de se fondre (dans quelqu’un ou dans quelque chose).
+
+</div>
+		</div>
+	</div>
+		<div class="bloc3Def">
+		<div class="blocDef">
+			<div class="titreDef">INTERACTION</div>
+			<div class="definition">Action réciproque de deux ou plusieurs objets, de deux ou plusieurs phénomènes.</div>
+		</div>
+		<div class="blocDef">
+			<div class="titreDef">LANGAGE</div>
+			<div class="definition">Ensemble de symboles et de règles permettant de combiner ces symboles afin de donner des instructions à un ordinateur.</div>
+		</div>
+		<div class="blocDef">
+			<div class="titreDef">MATERIALISER</div>
+			<div class="definition">Donner une nature matérielle, transformer en matière (physique ou virtuelle). Rendre visible et/ou tangible, donner à quelque chose un caractère matériel qu’il n’a pas à l’origine. 
+
+</div>
+		</div>
+	</div>
+		<div class="bloc3Def">
+		<div class="blocDef">
+			<div class="titreDef">MICRO-CONTROLEUR</div>
+			<div class="definition">Un microcontrôleur est un circuit intégré qui rassemble les éléments essentiels d’un ordinateur : processeur, mémoires, unités périphériques et interfaces d’entrées-sorties.</div>
+		</div>
+		<div class="blocDef">
+			<div class="titreDef">PROCESSUS</div>
+			<div class="definition">Action réciproque de deux ou plusieurs objets, de deux ou plusieurs phénomènes.</div>
+		</div>
+		<div class="blocDef">
+			<div class="titreDef">PROTOTYPAGE</div>
+			<div class="definition">Fait de réaliser un modèle premier; premier exemplaire (d’un objet à reproduire).</div>
+		</div>
+	</div>
+		<div class="bloc3Def">
+		<div class="blocDef">
+			<div class="titreDef">RYTHME</div>
+			<div class="definition">Succession des lignes, répartition des masses et des couleurs, des ornements et des motifs qui composent un dessin, une sculpture, un édifice. Progression d’une œuvre dans sa durée (articulation des motifs, des phrases, des périodes dans une œuvre musicale).</div>
+		</div>
+		<div class="blocDef">
+			<div class="titreDef">SENSORIELLE</div>
+			<div class="definition">Réaction réciproque de deux phénomènes l’un sur l’autre. Action réciproque qu’exercent l’un sur l’autre, deux ou plusieurs systèmes physiques.
+
+</div>
+		</div>
+		<div class="blocDef">
+			<div class="titreDef">SOFTWARE</div>
+			<div class="definition">Ensemble des moyens d’utilisation, programmes, procédures, documentation d’un système informatique.</div>
+		</div>
+	</div>
+			<div class="bloc3Def">
+		<div class="blocDef">
+			<div class="titreDef">SON</div>
+			<div class="definition">Sensation auditive produite sur l’organe de l’ouïe par la vibration périodique ou quasi-périodique d’une onde matérielle propagée dans un milieu élastique, en particulier dans l’air. Onde matérielle, qui frappe l’ouïe, avec un caractère plus ou moins tonal ou musical, par opposition à un bruit.</div>
+		</div>
+		<div class="blocDef">
+			<div class="titreDef">SPECTATEUR</div>
+			<div class="definition">Celui, celle qui se contente de regarder, d’observer un phénomène, un événement sans intervenir, sans s’impliquer.</div>
+		</div>
+		<div class="blocDef">
+			<div class="titreDef">SYNTHETISEUR</div>
+			<div class="definition">Dispositif permettant de composer des lettres ou des signes à partir de graphismes élémentaires préalablement enregistrés sous forme de codes numériques.
+
+</div>
+		</div>
+	</div>
+	<div class="bloc3Def">
+		<div class="blocDef">
+			<div class="titreDef">VR</div>
+			<div class="definition">L'expression « virtual reality » ou « réalité virtuelle » renvoie typiquement à une technologie informatique qui simule la présence physique d'un utilisateur dans un environnement artificiellement généré par des logiciels. La réalité virtuelle crée un environnement avec lequel l'utilisateur peut interagir. </div>
+		</div>
+
+	</div>
+</div>
+</div>
+</div>
+  <footer>
+  <div class="Footer">
+    <div class="NameAnnee">
+      <div class="MyName">Blanc Thibaut<br/><strong>DNMADe Graphisme Option Images et Médiation</strong></div>
+      <div class="ToAnnexe"><a href="Annexes.html"> Annexes</a></div>
+    </div>
+    </div>
+  </footer>
+</body>
+  
+</html>

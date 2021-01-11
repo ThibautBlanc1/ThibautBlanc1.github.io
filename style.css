@@ -1,0 +1,475 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@font-face{font-family: Helvetica BoldOblique; 
+		   src: url("font/Helvetica-BoldOblique.ttf");
+		}
+
+@font-face{font-family: Lisbeth Display; 
+		   src: url("font/Lisbeth Display.otf");
+		}
+
+.header {
+	text-align: left;
+	height: 100px;
+	background-color: #000000;
+}
+
+h1{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 40px;
+}
+
+h2{
+	font-family: Lisbeth Display, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 25px;
+	}
+
+h3{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 18px;
+}
+
+
+#myText{
+	display: flex;
+	justify-content: center;
+	margin-left: 300px;
+	margin-right : 300px;
+	margin-top: 300px;
+}
+
+.myText2{
+	display: flex;
+	justify-content: center;
+	font-size: 40px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	top: 0px;
+}
+
+.myText2 a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.myText2 a:hover{
+	text-decoration: none;
+	color: #000000;
+	background-color: #FFFFFF;
+
+}
+
+#SlideText{
+	align-items: center;
+	justify-content: center;
+
+}
+
+#verticalText{
+	top: 300px;
+	position: absolute;
+	transform: rotate(90deg);
+}
+.nav {
+	text-align: center;
+	display:flex;
+	justify-content: center;
+	margin: 25px;
+	padding-top: 10px;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.rubrique {
+	font-family: "Lisbeth Display";
+	font-size: 18px;
+	text-align: left;
+	color: #FFFFFF;
+	display: block;
+	height: 80px;
+	width: 100px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+.rubrique a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.rubrique a:hover {
+	text-decoration: none;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+.page {
+	margin-top: 50px;
+	text-align: center;
+	background-color: #000000;
+}
+
+.service{
+	display: flex;
+	align-items: flex-start;
+}
+
+.service-tt{
+	display: inline-block;
+	margin-top: 50px;
+	margin-right: 15px;
+	margin-left: 15px;
+	width: 35%;
+	vertical-align:top;
+
+}
+
+.service-tt2{
+	display: inline-block;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 200px;
+	width: 35%;
+	vertical-align:top;
+}
+
+.interm{
+	display: flex;
+	align-items: flex-start;
+}
+
+.service-tt3{
+	margin: 50px;
+	display: inline-block;
+}
+
+#versumVid{
+	right: 0px;
+	top: 300px;
+}
+.p2evo{
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+
+.danceTonite{
+	display: block;
+	border-color: #FFFFFF;
+	padding-left: 50px;
+	padding-top: 50px;
+}
+
+.service-tt4{
+	display: flex;
+	flex-direction: column;
+	margin-right: 15px;
+	margin-left: 15px;
+	width: 35%;
+	vertical-align:top;
+
+}
+
+.service-titre{
+	display: block;
+	text-align: left;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+
+.Abstract{
+	text-align: left;
+	font-family:'Roboto', sans-serif;
+	display: block;
+	text-indent:25px;
+	padding-left: 35px;
+	padding-bottom: 50px;
+	border-left-style: solid;
+	border-left-width: 1.5px;
+
+}
+
+.service-texte{
+	text-align: left;
+	white-space: normal;
+	font-family:'Roboto', sans-serif;
+	font-size: 16px;
+	display: block;
+
+}
+
+.service-texte a{
+	text-decoration: none;
+	color: #000000;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+.service-texte a img{
+	display: none;
+}
+
+.service-texte a:hover img{
+	display: inline;
+	position: absolute;
+}
+
+.sup{
+	vertical-align: text-top;
+}
+
+.Joydivision{
+	display: inline-block;
+	width: auto;
+	height: 25%;
+	margin-top: 35px;
+}
+
+.service-texte2{
+	text-align: left;
+	font-family:'Roboto', sans-serif;
+	display: block;
+	width: 100%;
+}
+
+.service-texte2 a{
+	text-decoration: none;
+	color: #000000;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+.service-texte2 a img{
+	display: none;
+}
+
+.service-texte2 a:hover img{
+	display: inline;
+	position: absolute;
+}
+
+.transition-txt{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-variant: small-caps;
+	color: #b5b5b5;
+}
+
+.blocAllAnnexe{
+	display: flex;
+	flex-direction: column;
+	margin-left: 200px;
+	margin-right: auto;
+	padding-right: 0px;
+	padding-left: 50px;
+	border-left-style: solid;
+	border-left-width: 1px;
+	width: 50%;
+	justify-content: space-between;
+}
+.blocAllAnnexe2{
+	display: flex;
+	flex-direction: column;
+	float: left;
+	width: 75%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.bloc-annexe{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	float: left;
+	width: 100%;
+	margin-bottom: 50px;
+	margin-right: 50px;
+	margin-top: 50px;
+}
+
+.annexe-img{
+	display: flex;
+	justify-content: flex-start;
+	border-color: #FFFFFF;
+	padding-bottom: 10px;
+	float: left;
+	}
+
+.faireCorps{
+	display: block;
+	border-color: #FFFFFF;
+	padding-left: 50px;
+	padding-top: 50px;
+}
+
+.annexe_txt{
+	font-family:'Roboto', sans-serif;
+	font-size: 10px;
+	font-style:italic;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	text-align: left;
+	padding-left: 10px;
+	justify-content: flex-start;
+	display: flex;
+	align-items: flex-end;
+}
+
+.annexe_txt2{
+	font-family:'Roboto', sans-serif;
+	font-size: 10px;
+	font-style:italic;
+	display: flex;
+	text-align: left;
+}
+
+.FDS{
+	font-family:'Roboto', sans-serif;
+	font-style:italic;
+	display: block;
+	margin-top: 200px;
+	padding: auto;
+	text-align: left;
+	padding-left: 10px;
+}
+
+.serviceAkous{
+	display: inline-block;
+	margin-right: 15px;
+	margin-left: 15px;
+	width: 35%;
+	vertical-align:top;
+
+}
+.Akous{display: flex;
+	border-color: #FFFFFF;
+	padding-left: 50px;
+	padding-top: 25px;
+	margin: auto;
+
+}
+body{
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #000000;
+	margin-bottom: 75px;
+}
+
+.Footer{
+	height: 50px;
+	background: #FFFFFF;
+	bottom:0px;
+	width: 100%;
+	padding-top: 10px;
+	position: fixed;
+
+}
+
+.NameAnnee{
+	display: flex;
+	justify-content: space-between;
+}
+
+.MyName a{
+	text-decoration: none;
+	color: #000000;
+}
+.MyName{
+	font-family:'Roboto', sans-serif;
+	font-size: 15px;
+	color: #000000;
+	margin-left: 25px;
+}
+
+.Annee{
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 12px;
+	color: #000000;
+	margin-right: 25px;
+}
+
+.ToAnnexe{
+	font-family:'Lisbeth Display', sans-serif;
+	font-size: 30px;
+	color: #000000;
+	margin-right: 25px;
+}
+
+.ToAnnexe a{
+	text-decoration: none;
+	color: #000;
+}
+
+.ToAnnexe a:hover{
+	text-decoration: none;
+	color: #fff;
+	background-color: #000;
+}
+#pageTitre{
+	display: flex;
+	justify-content: space-around;
+	margin: auto;
+}
+
+.biblio{
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 25px;
+}
+
+.Refs{
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	width: 50%;
+	font-size: 12px;
+	text-align: center;
+	border-right-style: solid;
+	border-right-width: 1px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.Refs a{
+    text-decoration: none;
+    color: #fff;
+}
+.Refs a:hover{
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+}
+
+.ref{
+	padding-bottom: 25px;
+}
+.refTT{
+	padding-bottom: 25px;font-style: italic;
+}
+.glossaire{
+	width: 50%;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.titreDef{
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+	padding-left: 25px;
+	text-align: left;
+
+}
+.definition{
+	font-family:'Roboto', sans-serif;
+	font-size: 15px;
+	text-align: left;
+	padding-left: 25px; 
+}
+.bloc3Def{
+	display: flex;
+	margin-top: 25px;
+	align-items: flex-start;
+}
+.blocDef{
+	margin-top: auto;
+	display: block;
+	height: 200px;
+}
